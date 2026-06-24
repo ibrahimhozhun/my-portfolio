@@ -96,8 +96,41 @@ export function Navbar({ brand, labels, ctaLabel }: NavbarProps) {
 						href="#home"
 						className="flex items-center gap-3 justify-self-start"
 					>
-						<span className="grid h-11 w-11 place-items-center border-2 border-[#2cf3d1]/40 bg-[#061316] text-sm font-black text-[#2cf3d1] shadow-[4px_4px_0_rgba(44,243,209,0.14)]">
-							&gt;
+						<span className="grid h-11 w-11 place-items-center rounded-lg bg-[#061316] text-sm font-black text-[#2cf3d1] shadow-[4px_4px_0_rgba(44,243,209,0.14)]">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 64 64"
+							>
+								<rect
+									width="60"
+									height="60"
+									x="2"
+									y="2"
+									fill="#050816"
+									stroke="#2cf3d1"
+									strokeWidth="4"
+									rx="12"
+								/>
+
+								<path
+									d="M 18 20 L 32 32 L 18 44"
+									stroke="#2cf3d1"
+									strokeWidth="6"
+									fill="none"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+								/>
+
+								<line
+									x1="38"
+									y1="46"
+									x2="50"
+									y2="46"
+									stroke="#2cf3d1"
+									strokeWidth="6"
+									strokeLinecap="round"
+								/>
+							</svg>
 						</span>
 						<span className="text-lg font-semibold tracking-[0.16em] text-white">
 							{brand}
