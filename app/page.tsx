@@ -1,8 +1,8 @@
-import { Contact } from "@/pages/contact";
+import { Contact } from "@/views/contact";
 import { Navbar } from "../components/navbar";
-import { Projects } from "@/pages/projects";
-import { Skills } from "@/pages/skills";
-import { Home } from "@/pages/home";
+import { Projects } from "@/views/projects";
+import { Skills } from "@/views/skills";
+import { Home } from "@/views/home";
 
 // Navigation configuration array.
 const navigationLabels = ["Home", "Skills", "Projects", "Contact"];
