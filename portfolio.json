@@ -1,0 +1,11 @@
+{
+	"title": "Dynamic Developer Portfolio",
+	"short_description": "A brutalist-themed personal website engineered with Next.js and Tailwind CSS. It leverages the GitHub API to automatically fetch and display portfolio-tagged repositories in a responsive bento grid.",
+	"tech_stack": [
+		"Next.js",
+		"React",
+		"Tailwind CSS",
+		"TypeScript",
+		"GitHub API"
+	]
+}
