@@ -18,7 +18,7 @@ export default async function HomePage() {
 			<Navbar
 				brand="ibrahimhozhun"
 				labels={navigationLabels}
-				ctaLabel="Resume"
+				ctaLabel="Download my CV"
 			/>
 			<Home />
 			<section className="grid gap-4 md:grid-cols-12 mx-auto w-full max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">

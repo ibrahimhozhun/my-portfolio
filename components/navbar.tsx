@@ -151,7 +151,7 @@ export function Navbar({ brand, labels, ctaLabel }: NavbarProps) {
 
 					<div className="hidden shrink-0 flex-row items-center justify-end gap-3 justify-self-end min-[960px]:flex">
 						<a
-							href="#todo:add-resume-link"
+							href="/İbrahim_Halil_Özhun_CV.pdf"
 							className="inline-flex w-full items-center justify-center whitespace-nowrap border-2 border-[#318a7b] bg-[#146456] px-5 py-2.5 text-sm font-semibold text-[#041014] shadow-[4px_4px_0_rgba(44,243,209,0.2)] transition-transform hover:-translate-y-0.5 hover:bg-[#04aa91] sm:w-auto"
 						>
 							{ctaLabel}
